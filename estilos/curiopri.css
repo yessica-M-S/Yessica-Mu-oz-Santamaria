@@ -1,0 +1,18 @@
+#curiopri{
+    margin-top: 50px; 
+    position:relative;
+}
+#curiopri img{
+width: 100%;
+height: 100%;
+}
+#curiopri.contenedor{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translateX(-50%)translateY(-50%);
+    color:rgb(0, 0, 0);
+}
+#curipri h2{
+    font-size: 28px ;
+}
