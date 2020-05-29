@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+   font-family: 'Indie Flower', cursive;
+}
+
+body{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background: #ffa17f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffa17f, #00223e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffa17f, #00223e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    input{
+    display:blok;
+    width: 150px;
+    float:left;
+    margin-bottom:10px;
+    }
+    label{
+    display:blok;
+    text-align:right;
+    width :120px;
+    float:left;
+    padding-right:10px;
+    font-family: 'Indie Flower', cursive;
+    }
+    #recordar{
+    width:1em;
+    }
+    br{
+    clear:left;
+    }
+    #enviar{
+    width:50px;
+    margin-left:140px;
+    }
+    .titulo{
+      font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    line-height: 30px;
+    background-color:rgb(32, 32, 30);
+    Color: #fdf9f9;
+    text-align:center;
+    font-style:normal;
+    }
+    form{
+      display: flex;
+      flex-flow: column;
+
+      background: #feac5e; /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #feac5e, #c779d0, #4bc0c8); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      width: 45%;
+      height: 73%;
+      padding: 25px;
+      justify-content: center;
+      align-items: center;
+      box-shadow: rgb(0,0,0,0.8) 0px 0px 50px;
+      border-radius: 10px;
+  }
