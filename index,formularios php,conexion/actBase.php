@@ -1,6 +1,6 @@
 <?php
 include "conectar.php";
-$CvCorreo-$_POST['cvCorreo'];
+$CvCorreo=$_POST['cvCorreo'];
 $vNomClie=$_POST['nomCliente'];
 $vNomComen=$_POST['comentarioClie'];
 $NomGroup=$_Post['nomGroup']
@@ -38,7 +38,7 @@ echo "<SCRIPT LANGUAGE="Javascript' TYPE='text/Javascrip'
 alert('Ocurrió un error... ')
 Javascript:history.back(1)
 </SCRIPT>;
-else{}
+else{
 echo "<SCRIPT LANGUAGE="Javascript' TYPE=text/Javascri
 alert('modificada`')
 window.location='consulta.php'
